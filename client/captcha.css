@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+.visualCaptcha-selected{
+	border-radius: 2px;
+	border:solid #8888ff;
+	width:100%;
+}
+.captcha-wrapper{
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-ms-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;background-color:#fff;padding:10px 15px 10px;
+	-webkit-box-shadow:rgba(0,0,0,0.4) 0 0 25px;
+	-moz-box-shadow:rgba(0,0,0,0.4) 0 0 25px;
+	box-shadow:rgba(0,0,0,0.4) 0 0 25px;
+	margin:0 15px;
+	width:415px;
+}
+
+.captcha-wrapper h1{
+	font-family:'Oxygen', sans-serif;font-size:20px;color:#2274a2;
+	font-weight:300;text-align:center; 
+}
+.frm-sample .form-control{
+	font-family:'Oxygen', sans-serif;font-size:15px;color:#495e62;
+	font-weight:100;padding:5px;border:1px solid #3bb6e4;height:40px;
+	width:100%;-webkit-border-radius:4px;-moz-border-radius:4px;
+	-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px
+}
+.frm-sample .visualCaptcha .audioField{
+	font-size:15px;color:#495e62;font-weight:100;padding:5px;
+	border:1px solid #3bb6e4;height:40px;width:100%;
+	-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;
+	-o-border-radius:4px;border-radius:4px
+}
