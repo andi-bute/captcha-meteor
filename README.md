@@ -1,7 +1,6 @@
 # visualCaptcha for Meteor (new version)
 
 A wrapper package to use visualCaptcha with Meteor
-Better integrated into meteor
 
 
 ```
