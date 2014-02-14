@@ -10,6 +10,7 @@ Package.on_use(function (api, where) {
   //api.use('server');
   api.use(['deps','underscore', 'templating',
            'handlebars', 'spark', 'session', 'jquery'], 'client');
+  api.use('iron-router','server')
   api.add_files('lib/index.js', 'server');
   api.add_files('client/visualcaptcha.jquery.js', 'client');
   api.add_files('client/captcha.css', 'client');
