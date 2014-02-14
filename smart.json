@@ -7,6 +7,6 @@
   "git": "https://github.com/andi-bute/captcha-meteor.git",
   "packages": {
     "npm": "0.2.6",
-    "iron-router": *
+    "iron-router": "*"
   }
 }
