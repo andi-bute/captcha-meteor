@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "VisualCaptcha doesn't work for me. So this is another wrapper for VisualCaptcha"
+  summary: "VisualCaptcha better integrated with meteor"
 });
 
 Npm.depends({

@@ -1,9 +1,9 @@
 {
   "name": "captcha",
-  "description": "VisualCaptcha doesn't work for me. So this is another wrapper for VisualCaptcha",
-  "homepage": "",
-  "author": "Andi Bute <andi.bute@gmail.com> (http://yoursite)",
+  "description": "VisualCaptcha better integrated with meteor",
+  "homepage": "https://github.com/andi-bute/captcha-meteor.git",
+  "author": "Andi Bute <andi.bute@gmail.com>",
   "version": "0.0.1",
-  "git": "",
+  "git": "https://github.com/andi-bute/captcha-meteor.git",
   "packages": {}
 }
