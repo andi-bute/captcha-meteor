@@ -2,7 +2,15 @@
 .visualCaptcha-selected{
 	border-radius: 2px;
 	border:solid #8888ff;
-	width:100%;
+}
+.visualCaptcha-possibilities{
+	clear: both;
+}
+.visualCaptcha-button-group{
+	clear:both;
+}
+.visualCaptcha-possibilities .img{
+	float: left;
 }
 .captcha-wrapper{
 	-webkit-border-radius:10px;
@@ -20,6 +28,13 @@
 .captcha-wrapper h1{
 	font-family:'Oxygen', sans-serif;font-size:20px;color:#2274a2;
 	font-weight:300;text-align:center; 
+}
+
+.captcha-wrapper .status{
+	color:#800;
+}
+.captcha-wrapper .status.valid{
+	color:#000;
 }
 .frm-sample .form-control{
 	font-family:'Oxygen', sans-serif;font-size:15px;color:#495e62;

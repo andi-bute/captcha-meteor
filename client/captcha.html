@@ -6,14 +6,13 @@
     </div>
 </template>
 
+
 <template name="captcha">
 <div class="captcha-wrapper">
     {{>statusMessage}}
     <div id="sample-captcha" class="visualCaptcha">
         <div class="visualCaptcha-accessibility-wrapper visualCaptcha-hide">
-            <div class="accessibility-description">Type below the <strong>answer</strong> to what you hear. Numbers or words:</div>
-                <audio preload="preload"><source src="http://demo.visualcaptcha.net/audio" type="audio/ogg"><source src="http://demo.visualcaptcha.net/audio" type="audio/mpeg"></audio>
-            </div>
+            <div class="accessibility-description">Click or touch the {{selectedWord}} to prove you are human</div>
             <p class="visualCaptcha-explanation">Click or touch the <strong>{{selectedWord}}</strong></p>
             <div class="visualCaptcha-possibilities">
                 {{#each images}}
@@ -21,13 +20,6 @@
                         <img src="/captcha/image/{{this.idx}}" id="visualCaptcha-img-{{this.idx}}" data-index="0" alt="" title="">
                     </div>
                 {{/each}}
-            </div>
-            <div class="visualCaptcha-button-group">
-                <div class="visualCaptcha-refresh-button">
-                    <img src="/packages/captcha/images/img/refresh.png" title="Refresh/reload: get new images and accessibility option!" alt="Refresh/reload icon">
-                </div>
-            <div class="visualCaptcha-accessibility-button">
-                <img src="/packages/captcha/images/img/accessibility.png" title="Accessibility option: listen to a question and answer it!" alt="Sound icon">
             </div>
         </div>
     </div>
